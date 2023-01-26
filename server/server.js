@@ -19,7 +19,7 @@ app.use(express.json())
 
 app.get('/', async (req, res) => {
   res.status(200).send({
-    message: 'Hello this is GOD API...'
+    message: 'Hello, how can I help you today ... --> This '
   })
 })
 
