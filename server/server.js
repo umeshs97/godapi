@@ -19,7 +19,7 @@ app.use(express.json())
 
 app.get('/', async (req, res) => {
   res.status(200).send({
-    message: 'Hello, how can I help you today ... --> This '
+    message: 'Hello, how can I help you today ... --> This App is created by Ojas & Oorjit '
   })
 })
 
